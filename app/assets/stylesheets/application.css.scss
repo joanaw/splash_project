@@ -18,31 +18,32 @@
 @import 'bootstrap'; 
 
 body {
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
   line-height: 1.5;
   background: url('splash.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
 
-.info {
-  width: 400px;
-  padding: 20px;
+.well.info {
+  padding: 40px;
   margin: 100px auto;
-  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   border-radius: 40px;
 }
 
 h1 {
-    font-family: 'Helvetica Neue', Helvetica;
-    font-size: 50px;
-    font-weight: 100;
+  font-family: 'Helvetica Neue', Helvetica;
+  font-size: 50px;
+  font-weight: 100;
 }
 
 p {
-    font-family: 'Open Sans', Helvetica; 
-    font-weight: 200;
-    font-size: 16px;
+  font-family: 'Open Sans', Helvetica; 
+  font-weight: 200;
+  font-size: 16px;
 }
